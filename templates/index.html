@@ -1,0 +1,61 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<link rel="stylesheet" href="{{ url_for('static', filename='css/index.css') }}">
+{% endblock %}
+
+{% block body %}
+<section class="hero">
+  <div class="hero-wrap">
+    <h1 class="hero-heading">We love helping you to safe the earth</h1>
+    <p class="hero-text">
+      We help realize your dreams in making a garden, let's start with small
+      things that can change the world, so you can enjoy the fresh air forever
+    </p>
+  </div>
+</section>
+<section id="gallery" class="gallery">
+  <h2 class="block-heading">
+    Sustainable Products
+  </h2>
+  <div class="gallery-main">
+    <div class="gallery-left">
+      <div>
+        <p>
+          Eco friendly products can make a huge difference on our environmental impact
+          by reducing waste, energy, and chemicals. Eco-Friendly Products to Help You Live
+          More Sustainably and Reduce Waste
+        </p>
+        <a href="/gallery">
+          <button class="button1">
+            Gallery&ensp;
+            <svg width="24" height="24" fill="white" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd"
+              clip-rule="evenodd">
+              <path d="M21.883 12l-7.527 6.235.644.765 9-7.521-9-7.479-.645.764 7.529 6.236h-21.884v1h21.883z" />
+            </svg>
+          </button>
+        </a>
+      </div>
+    </div>
+    <div class="gallery-right">
+      <img src="{{ url_for('static', filename='images/bag1.jpg') }}" alt="Snake and Ladder" />
+    </div>
+  </div>
+</section>
+
+<section class="image-classification">
+  <div class="ic-wrap">
+    <h2 class="block-heading">Image Classification for Sustainable Development</h1>
+      <p>
+        The Image classification model is a convolution neural network that is trained to
+        classfify objects images based on it's bio degrable nature
+      </p>
+  </div>
+</section>
+
+<section class="energy">
+  <div class="energy-wrap">
+    <h2 class="block-heading">Renewable <span>Energy Resources</span></h1>
+  </div>
+</section>
+{% endblock %}

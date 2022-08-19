@@ -1,0 +1,70 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<link rel="stylesheet" href="{{ url_for('static', filename='css/gallery.css') }}">
+{% endblock %}
+
+{% block body %}
+<section class="items-grid">
+  <div class="item">
+    <img src="{{ url_for('static', filename='images/item1.jpg') }}" alt="Sustainable item" />
+    <h2 class="item-name">Bamboo Drinking Straw</h2>
+    <p class="item-text">
+      They are reusable and look
+      cute in any drink – talk about a cool eco friendly product! They are also handcrafted by artisans
+      in Ubud, Bali using rare Bali mountain bamboo.
+      Bonus! Drink in style while knowing you are supporting a small business.
+    </p>
+  </div>
+  <div class="item">
+    <img src="{{ url_for('static', filename='images/item4.jpg') }}" alt="Sustainable item" />
+    <h2 class="item-name">Reusable Bamboo Utensil</h2>
+    <p class="item-text">
+      This silverware is heat resistant, small, and lightweight making it the perfect environmentally
+      friendly travel product. These eco-friendly
+      utensils have saved us during those random times when we desperately need a spoon or fork to eat too.
+    </p>
+  </div>
+  <div class="item">
+    <div class="image-wrap">
+      <img src="{{ url_for('static', filename='images/item6.png') }}" alt="Sustainable item" />
+    </div>
+    <h2 class="item-name">Compostable Bowls</h2>
+    <p class="item-text">
+      Instead of putting party, BBQ, or camping snacks in a plastic or paper bowl, you can use a compostable
+      bowl that’s both human and environmentally friendly.
+    </p>
+  </div>
+  <div class="item">
+    <img src="{{ url_for('static', filename='images/item2.jpg') }}" alt="Sustainable item" />
+    <h2 class="item-name">Reusable Coffee Cups</h2>
+    <p class="item-text">
+      In a similar style to coffee cups you get from your local cafe, Onya’s Reusable Coffee Cups are made
+      out of 100% food grade silicone.
+      They’re also made to barista’s standards, so they fit snuggly on the machine at your favourite coffee shop.
+    </p>
+  </div>
+  <div class="item">
+    <div class="image-wrap">
+      <img src="{{ url_for('static', filename='images/item3.jpg') }}" alt="Sustainable item" />
+    </div>
+    <h2 class="item-name">Upcycled Eco Friendly Handbags</h2>
+    <p class="item-text">
+      These handmade bags and accessories are woven from discarded plastic laminated foil that was rejected due to
+      printing defects.
+      Instead of ending up in landfills or reaching waterways, Mother
+      Erth intercepts it and prepares it for new life in the form of unique and colorful handbags, clutches and
+      more.
+    </p>
+  </div>
+  <div class="item">
+    <img src="{{ url_for('static', filename='images/item5.jpg') }}" alt="Sustainable item" />
+    <h2 class="item-name">Bamboo Toothbrush</h2>
+    <p class="item-text">
+      The bamboo toothbrush is one of the best sustainable products out there. These toothbrushes are the best
+      (seriously, check the reviews!).
+      These bamboo toothbrushes are recyclable along with all their packaging.
+    </p>
+  </div>
+</section>
+{% endblock %}
