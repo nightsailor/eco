@@ -14,6 +14,12 @@ class Items(db.Model):
     def __repr__(self):
         return '<Item %r>' % self.id
 
+
+@app.route('/')
+def index():
+    return render_template('index.html')
+
+
 @app.route('/energy')
 def energy():
     return render_template('energy.html')
@@ -27,11 +33,6 @@ def gallery():
 @app.route('/image-classification')
 def image_classification():
     return render_template('img-classif.html')
-
-
-@app.route('/')
-def index():
-    return render_template('index.html')
 
 
 if __name__ == "__main__":
