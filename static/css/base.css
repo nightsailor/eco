@@ -5,8 +5,8 @@
 html{
 	padding: 0;
 	margin: 0;
-	-webkit-text-size-adjust: 100%;
-    -ms-text-size-adjust: 100%;
+	/* -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%; */
 }
 
 body {
@@ -15,9 +15,7 @@ body {
 	font-size: 16px;
 	line-height: 1.75;
 	color: #637381;
-	/* color: rgba(0,0,0,0.7); */
 	font-weight: 300;
-	/* font-weight: 400; */
 	font-family: 'Roboto', Helvetica, sans-serif;
 }
 
@@ -46,7 +44,6 @@ h2 {
 
 h1, h2, h3, h4 {
 	color: #040515;
-	color: black;
 	font-weight: 500;
 }
 
