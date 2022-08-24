@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<link rel="stylesheet" href="{{ url_for('static', filename='css/gallery.css') }}">
+{% endblock %}
+
+{% block body %}
+
+<p>
+    <h1>予測結果</h1>
+</p>
+ 
+<h2>
+    {{resultmsg}}
+</h2>
+
+{% endblock %}
