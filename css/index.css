@@ -1,0 +1,131 @@
+@import url('base.css');
+
+/*-==========---------- HERO ----------============-*/
+
+.hero{
+	height: 100%;
+	background-image: url(../images/1.png);
+	/* background-color: #5f7862; */
+	/* background-color: #7e997a; */
+	background-repeat: repeat-x;
+	background-position: center bottom 10px;
+	background-size: 250px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background-color: #f7f7fd;
+}
+
+.hero-wrap{
+	width: 40%;
+	text-align: center;
+}
+
+.hero-heading{
+	font-size: 42px;
+}
+
+.hero-text{
+	margin-top: 20px;
+	font-size: 18px;
+	line-height: 1.4;
+	font-weight: 400;
+	color: rgba(0,0,0,0.8);
+}
+
+/*-==========---------- ENERGY ----------============-*/
+
+.energy, .image-classification, .gallery{
+	margin-top: 150px;
+	width: 100%;
+}
+
+.energy{
+	margin: 100px 0;
+}
+
+.content-middle-energy, .content-middle-gallery{
+	display: flex;
+	align-items: center;
+}
+
+.energy-left, .energy-right, .gallery-left, .gallery-right{
+	width: 50%;
+}
+
+.energy-left p, .energy-right img{
+	width: 80%;
+	margin: 0 10%;
+}
+
+.energy .block-heading span{
+	color: rgba(0,0,0,0.5);
+}
+
+/*-==========---------- IMAGE CLASSIFICATION ----------============-*/
+
+.image-classification{
+	background-color: #4b36f8;
+	padding: 50px 0;
+	margin-top: 100px;
+}
+
+.ic-wrap{
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	color: white;
+}
+
+.ic-wrap h2{
+	color: white;
+}
+
+/*-==========---------- GALLERY ----------============-*/
+
+.gallery-left div{
+	width: 60%;
+	margin: 0 20%;
+}
+
+.gallery-right img{
+	margin: 0 14.5%;
+	width: 71%;
+}
+
+.gallery-left button{
+	background-color: #0f766e;
+	outline: none;
+	color: white;
+	border: none;
+	border-radius: 4px;
+	padding: 6px 50px;
+	margin-top: 30px;
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+}
+
+/*-==========---------- MISCELLENIOUS ----------============-*/
+
+.footer {
+	margin-top: 0;
+}
+
+.block-heading {
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+.font-style-b{
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 1.5;
+	color: black;
+}
+
+.text-center{
+	text-align: center;
+}
