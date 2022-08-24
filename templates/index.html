@@ -18,8 +18,8 @@
   <h2 class="block-heading">
     Sustainable Products
   </h2>
-  <div class="gallery-main">
-    <div class="gallery-left">
+  <div class="content-middle-gallery">
+    <div class="gallery-left font-style-b">
       <div>
         <p>
           Eco friendly products can make a huge difference on our environmental impact
@@ -54,8 +54,19 @@
 </section>
 
 <section class="energy">
-  <div class="energy-wrap">
-    <h2 class="block-heading">Renewable <span>Energy Resources</span></h1>
+  <h2 class="block-heading">Renewable <span>Energy Resources</span></h1>
+  <div class="content-middle-energy">
+    <div class="energy-left font-style-b text-center">
+      <p>
+        Energy conservation is when you make a conscious decision to use less energy. You might be 
+        wondering, can it really be that simple? Yes, yes, it can! Not only is it simple, but it’s also 
+        quite beneficial. When we lower the amount of energy we use, we slow down fossil fuel 
+        depletion and help clean up the environment. While we’re at it, we end up saving ourselves money.
+      </p>
+    </div>
+    <div class="energy-right">
+      <img src="{{ url_for('static', filename='images/energy.jpg') }}" alt="Renewable Energy" />
+    </div>
   </div>
 </section>
 {% endblock %}
