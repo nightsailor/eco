@@ -8,6 +8,7 @@ from tensorflow.keras.preprocessing.image import ImageDataGenerator
 from PIL import Image, ImageOps
 import numpy as np
 import base64
+import os
 
 path = os.path.dirname(__file__)
 
