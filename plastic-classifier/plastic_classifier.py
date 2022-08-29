@@ -53,7 +53,7 @@ uploaded_file = st.file_uploader(" ", type="jpg")
 if uploaded_file is not None:
     image = Image.open(uploaded_file).convert('RGB')
     st.image(image, caption='Uploaded IMage.', use_column_width=True)
-    label = teachable_machine_classification(image, 'model.h5')
+    label = teachable_machine_classification(image, path+'/model.h5')
     battery= (label[0][0])
     biological= (label[0][1])
     brownglass= (label[0][2])
