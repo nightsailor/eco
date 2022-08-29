@@ -9,6 +9,8 @@ from PIL import Image, ImageOps
 import numpy as np
 import base64
 
+path = os.path.dirname(__file__)
+
 st.title(' ')
 def get_base64(bin_file):
     with open(bin_file, 'rb') as f:
@@ -27,7 +29,7 @@ def set_background(png_file):
         ''' % bin_str
     st.markdown(page_bg_img, unsafe_allow_html=True)
 
-set_background('background.png')
+set_background(path+'/background.png')
 
 
 def teachable_machine_classification(img, file):
