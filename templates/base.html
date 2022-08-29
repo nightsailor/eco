@@ -1,32 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Eco Solution</title>
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='css/base.css') }}"
+    />
+    {% block head %}{% endblock %}
+  </head>
 
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<title>Eco Solution</title>
-	<link rel="stylesheet" href="{{ url_for('static', filename='css/base.css') }}">
-	{% block head %}{% endblock %}
-</head>
-
-<body>
-	<header class="site-header">
-		<div class="header-wrap">
-			<div class="logo">
-				<a href="/">Eco Solution</a>
-			</div>
-			<div class="menu-items">
-				<a href="/energy">Energy Conservation</a>
-				<a href="/image-classification">Sustainability Classifier</a>
-				<a href="/gallery">Gallery</a>
-			</div>
-		</div>
-	</header>
-	{% block body %}{% endblock %}
-	<footer class="footer">
-		Copyright © EcoSolution 2022
-	</footer>
-</body>
-
+  <body>
+    <header class="site-header">
+      <div class="header-wrap">
+        <div class="logo">
+          <a href="/">Eco Solution</a>
+        </div>
+        <div class="menu-items">
+          <a href="/energy">Energy Conservation</a>
+          <a
+            target="_blank"
+            rel="noreferrer noopener"
+            href="https://nightsailor-eco-plastic-classifierplastic-classifier-43y0qz.streamlitapp.com?embed=true"
+            >Sustainability Classifier</a
+          >
+          <a href="/gallery">Gallery</a>
+        </div>
+      </div>
+    </header>
+    {% block body %}{% endblock %}
+    <footer class="footer">Copyright © EcoSolution 2022</footer>
+  </body>
 </html>
