@@ -33,7 +33,7 @@ def gallery():
 
 @app.route('/image-classification')
 def image_classification():
-    return redirect('img-classif.html')
+    return render_template('img-classif.html')
 
 
 if __name__ == "__main__":
