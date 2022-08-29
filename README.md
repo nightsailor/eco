@@ -25,9 +25,9 @@ The machine learning model is trained with AWS ASDI sustainability dataset with 
 A list of eco friendly products that can be used as alternative to unsustainable products.
 
 
-## AWS ASDI dataset
+### AWS ASDI dataset
 
-The Image Classfication model uses the following aws asdi dataset, https://aws.amazon.com/marketplace/pp/prodview-fqx6kc3eacl4u?sr=0-1&ref_=beagle&applicationId=AWSMPContessa
+The Image Classfication model uses the following aws asdi dataset, https://aws.amazon.com/marketplace/pp/prodview-fqx6kc3eacl4u
 
 
 ## How we built it
