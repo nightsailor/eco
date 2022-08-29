@@ -65,11 +65,7 @@ if uploaded_file is not None:
     whiteglass= (label[0][11])
 
     if battery >= 0.6:
-        st.write("""It's a Battery.All batteries must be sorted by chemistry to prepare them for recycling. The goal of battery recycling is to recover the various component materials (e.g. heavy metals, plastic) from the disposed batteries for reuse.
-The battery is first separated into its components: plastic, acid, heavy metal. Batteries are often crushed by high speed hammers or shredders.
-The battery acids or other liquid electrolytes are drained off and neutralized to become water, or processed into compounds such as carbonates.
-The remaining parts of the crushed batteries are then passed through suitable liquids that allow the various components (e.g. plastic, metal) to be separated based on their density.
-The chemical composition of batteries is what contributes to high levels of toxicity in the environment. Chemicals like cadmium are harmful to humans, as well as other animal and plant life. In the landfills, heavy metals that leak from the dead batteries can mix with ground soil and cause irreversible damage to the ecosystem thereby affecting plant and animal life. At the incinerators, the burnt batteries release toxic gases containing the heavy metals.
+        st.write("""
                  """)
     elif biological >= 0.6:
         st.write("It's a Biological Waste. It must be disposed")
