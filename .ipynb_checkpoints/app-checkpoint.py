@@ -33,7 +33,7 @@ def gallery():
 
 @app.route('/image-classification')
 def image_classification():
-    return render_template(plastic_classifier.py)
+    return render_template(Programming/eco/plastic_classifier.py)
 
 
 if __name__ == "__main__":
