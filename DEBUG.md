@@ -45,3 +45,27 @@ $ pip3 install tensorflow --no-cache-dir
 ```bash
 $ (env) pip3 install flask flask-sqlalchemy pillow tensorflow --no-cache-dir
 ```
+
+
+### Streamlit
+
+
+```
+streamlit run my_app.py --server.enableCORS=false --server.headless=true --global.developmentMode=false
+
+streamlit run my_app.py --server.port=80
+
+python -m http.server [port]
+
+streamlit run my_app.py --server.enableCORS=false
+
+streamlit run my_app.py --server.enableWebsocketCompression=false
+```
+
+unable to uplaod file
+
+```
+streamlit run my_app.py --server.enableXsrfProtection=false`
+
+export PATH="$HOME/.local/bin:$PATH"
+```
